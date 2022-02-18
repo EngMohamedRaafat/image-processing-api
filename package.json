@@ -4,6 +4,7 @@
   "description": "Full-Stack Web Development Image Processing API Project",
   "main": "index.js",
   "scripts": {
+    "format": "prettier --config .prettierrc '**/*.ts' --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/EngMohamedRaafat/image-processing-api/issues"
   },
-  "homepage": "https://github.com/EngMohamedRaafat/image-processing-api#readme"
+  "homepage": "https://github.com/EngMohamedRaafat/image-processing-api#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
