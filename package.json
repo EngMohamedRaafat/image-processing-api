@@ -1,0 +1,19 @@
+{
+  "name": "image-processing-api",
+  "version": "1.0.0",
+  "description": "Full-Stack Web Development Image Processing API Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EngMohamedRaafat/image-processing-api.git"
+  },
+  "author": "Mohamed Raafat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EngMohamedRaafat/image-processing-api/issues"
+  },
+  "homepage": "https://github.com/EngMohamedRaafat/image-processing-api#readme"
+}
