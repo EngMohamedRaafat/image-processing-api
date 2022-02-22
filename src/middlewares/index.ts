@@ -1,4 +1,5 @@
 import errorHandler from './errorHandler';
+import validateRequest from './images/validateRequest';
 import pageNotFound from './pageNotFound';
 
-export { errorHandler, pageNotFound };
+export { errorHandler, validateRequest, pageNotFound };

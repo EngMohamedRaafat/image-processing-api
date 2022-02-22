@@ -1,6 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
 
+import routes from './routes';
 import { errorHandler, pageNotFound } from './middlewares';
 
 const app = express();
@@ -8,6 +9,8 @@ const PORT = 3000;
 
 // logging middleware
 app.use(morgan('dev'));
+// routes handler
+app.use(routes);
 // page not found middleware
 app.use(pageNotFound);
 // error handler middleware

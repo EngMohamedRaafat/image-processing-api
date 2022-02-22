@@ -1,9 +1,9 @@
 import express from 'express';
 
-import route from './api/route';
+import imagesRoutes from './api/images';
 
 const routes = express.Router();
 
-routes.use('/api', route);
+routes.use('/api/images', imagesRoutes);
 
 export default routes;
