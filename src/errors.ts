@@ -4,6 +4,8 @@ class HttpException extends Error {
 	status: number;
 	message: string;
 	/**
+	 * @description Represents an HTTP response
+	 * @constructor
 	 * @param status - status code of the HTTP response
 	 * @param message - error message of the HTTP response
 	 */
@@ -16,6 +18,8 @@ class HttpException extends Error {
 
 class ValidationError extends HttpException {
 	/**
+	 * @description Represents invalid error
+	 * @constructor
 	 * @param message - will be mapped to the default message of 400 error if empty
 	 */
 	constructor(message = '') {
@@ -26,6 +30,8 @@ class ValidationError extends HttpException {
 }
 class PageNotFound extends HttpException {
 	/**
+	 * @description Represents undefined route error
+	 * @constructor
 	 * @param message - will be mapped to the default message of 400 error if empty
 	 */
 	constructor(message = '') {

@@ -2,7 +2,7 @@ import path from 'path';
 import sharp from 'sharp';
 
 /**
- * Create formated thumbnail image name
+ * @description Create formated thumbnail image name
  * @param filename - original image names
  * @param width - image width
  * @param height - image height
@@ -24,7 +24,7 @@ export type ImagePathsType = {
 };
 
 /**
- * Get the complete path of full and thumb folders inside image folder
+ * @description Get the complete path of full and thumb folders inside image folder
  * @returns object contains full and thumbnail path as string
  */
 const getPaths = (): ImagePathsType => {
@@ -36,7 +36,7 @@ const getPaths = (): ImagePathsType => {
 };
 
 /**
- * Resize the input image and save it to the provided output path
+ * @description Resize the input image and save it to the provided output path
  * @param inputImagePath - original image path
  * @param width - image width
  * @param height - image height

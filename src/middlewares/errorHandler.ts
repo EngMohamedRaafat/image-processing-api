@@ -4,7 +4,7 @@ import { NextFunction, Request, Response } from 'express';
 import { HttpException } from '../errors';
 
 /**
- * A middleware to handle all thrown exceptions
+ * @description A middleware to handle all thrown exceptions
  */
 const errorHandler = (
 	err: Error,

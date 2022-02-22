@@ -3,7 +3,7 @@ import { NextFunction, Request, Response } from 'express';
 import { PageNotFound } from '../errors';
 
 /**
- * A middleware to handle navigation to undefined routes
+ * @description A middleware to handle navigation to undefined routes
  */
 const pageNotFound = (
 	req: Request,

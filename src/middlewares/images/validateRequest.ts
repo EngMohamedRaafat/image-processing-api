@@ -1,6 +1,9 @@
 import { Request, Response, NextFunction } from 'express';
 import { ValidationError } from '../../errors';
 
+/**
+ * @description A middleware to validate upcoming requests the images API
+ */
 const validateRequest = (
 	req: Request,
 	res: Response,

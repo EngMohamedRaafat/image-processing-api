@@ -8,7 +8,7 @@ import image, { ImagePathsType } from '../../../utils/image';
 const request = supertest(app);
 
 /**
- * Removes a file from the filesystem if exists
+ * @description Removes a file from the filesystem if exists
  * @param filePath - file to be deleted
  */
 const removeFile = (filePath: string): void => {
